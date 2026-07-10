@@ -1,6 +1,6 @@
 const supabase = window.supabase.createClient(
     "https://qpefvvyrucisglqjwnsg.supabase.co",
-    "你的 Publishable Key"
+    "sb_publishable_zP0qNoX-Pav10KbXXADlbQ_HU_DFy8Z"
 );
 
 async function subscribe() {
