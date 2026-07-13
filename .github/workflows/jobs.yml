@@ -62,7 +62,7 @@ jobs:
 
           async function getSubscribers() {
             return await supabaseRequest(
-              "subscribers?select=email,keywords"
+              "subscribers?select=email,keywords,unsubscribe_token&active=eq.true"
             );
           }
 
